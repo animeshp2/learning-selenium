@@ -133,7 +133,7 @@ public class PageObjectModelTest {
         Allure.step("Navigate to cart and verify state", step -> {
             productsPage.navigateToCart();
 
-            Assert.assertTrue(cartPage.isPageOpened(), "Cart page not loaded");
+            Assert.assertTrue(cartPage.isPageOpened(), "Cart page not loaded.");
             Assert.assertEquals(cartPage.getCartItemCount(), "2", "Incorrect number of items in the cart");
             Assert.assertEquals(cartPage.getContinueButtonText(), "Checkout",
                     "Incorrect button text on the cart page");
