@@ -89,7 +89,7 @@ public class PageObjectModelTest {
 
         delay();
 
-        Allure.step("Navigate back to products page");
+        Allure.step("Navigate back to products page.");
 
         driver.navigate().back();
     }
